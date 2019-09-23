@@ -16,6 +16,6 @@ a.getItemsAmount(); -> 4 // Returns number of items in collections.
 
 a.getPagesAmount(); -> 4 // Return the amount of pages.
 
-a.getPagination(); -> [['a'],['b'],['c']] // Main method, returns two-dimensional array, that includes already diveded elements of collection to pages.
+a.getPagination(); -> [['a'],['b'],['c'],['a']] // Main method, returns two-dimensional array, that includes already diveded elements of collection to pages.
 
 a.getPagesByItem('a'); -> [0, 3] // Return the array of pages, that includes this element 'a'.
