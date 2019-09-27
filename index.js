@@ -12,13 +12,11 @@ PaginationHelper.prototype.getItemsAmount = function() {
 };
 
 /* Returns number of pages */
-
 PaginationHelper.prototype.getPagesAmount = function() {
     return Math.ceil(this.itemList.length / this.pageSize);
 };
 
 /* Returns the pagination */
-
 PaginationHelper.prototype.getPagination = function() {
     let arr = [];
     let items = this.itemList;
@@ -34,7 +32,6 @@ PaginationHelper.prototype.getPagination = function() {
 };
 
 /* Returns numbers of pages, that includes element itemIndex */
-
 PaginationHelper.prototype.getPagesByItem = function(itemIndex) {
     let result = [];
     this.getPagination().forEach((el, index) => {
